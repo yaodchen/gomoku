@@ -1,3 +1,2 @@
 # Gomoku-WuZiQi
-<h2>B351 Final Project</h2>
-<a href="https://yixuaneric.github.io/Gomoku/index.html">Demo</a>
+Gomoku, also called Gobang or Five in a Row, is an abstract strategy board game. It is traditionally played with Go pieces (black and white stones) on a Go board. The game is known in several countries under different names. Players alternate turns placing a stone of their color on an empty intersection. The winner is the first player to form an unbroken chain of five stones horizontally, vertically, or diagonally. (Wikipedia)
