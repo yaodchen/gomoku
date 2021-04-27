@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=0.8" />
+  <title>Gomoku</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <div id="modal" class="modal">
+    <div class="modal-content">
+    <h2>Welcome to Gomoku Game!</h2>
+    <h2>Choose Difficulty</h2>
+    <div class="button" id="EZ">Easy</div>
+    <div class="button" id="NM">Normal</div>
+    <div class="button" id="HD">Hard</div>
+  </div>
+  </div>
+  <div id="modal2" class="modal2">
+    <div class="modal-content">
+    <h2>Welcome to Gomoku Game!</h2>
+    <h2>You want to play the first hand?</h2>
+    <div class="button2" id="Yes">Yes!</div>
+    <div class="button2" id="No">No!</div>
+  </div>
+  </div>
+
+  <div id="modal3" class="modal3">
+    <div class="modal-content">
+    <h2>Game Over!</h2>
+    <h2 id="info"></h2>
+    <div class="button2" id="restart" onclick="window.location.reload()">Restart!</div>
+  </div>
+  </div>
+
+  <canvas id="canvas" width="648" height="648"></canvas>
+  <div>
+  <center><h2>You are playing against <span id="level">  </span> AI</h2></center>
+  <center><h2>You have used <span id="hand">0 </span>steps</h2></center>
+</div>
+  <script src="custom.js"></script>
+  <script src="ai.js"></script>
+  <script src="modal.js"></script>
+
+</body>
+
+</html>
